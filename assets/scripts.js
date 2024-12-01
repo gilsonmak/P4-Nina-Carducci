@@ -66,3 +66,47 @@ $(document).ready(function () {
     showImage(currentImageIndex);
   });
 });
+
+
+$(document).ready(function () {
+  // Gestion de la soumission du formulaire
+  $("form").on("submit", function (event) {
+      event.preventDefault(); // Empêche le rechargement de la page
+
+      // Récupération des données du formulaire
+      const nom = $("#nom").val().trim();
+      const email = $("#email").val().trim();
+      const message = $("#message").val().trim();
+
+      // Validation des champs
+      if (!nom || !email || !message) {
+          alert("Tous les champs doivent être remplis !");
+          return;
+      }
+
+      // Validation de l'adresse e-mail
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!emailRegex.test(email)) {
+          alert("Veuillez entrer une adresse e-mail valide !");
+          return;
+      }
+
+      // Simuler l'envoi du formulaire
+      console.log("Formulaire soumis :", { nom, email, message });
+
+      // Afficher une confirmation
+      alert("Merci pour votre message ! Nous vous répondrons sous 24h.");
+
+      // Réinitialiser le formulaire
+      $(this).trigger("reset");
+  });
+
+  // Ajouter un effet visuel lors de la validation des champs
+  $("input, textarea").on("input", function () {
+      if ($(this).val().trim() === "") {
+          $(this).css("border-color", "red");
+      } else {
+          $(this).css("border-color", "green");
+      }
+  });
+});
