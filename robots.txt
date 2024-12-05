@@ -1,0 +1,7 @@
+# Autorise tous les moteurs de recherche à explorer le site
+User-agent: *
+Disallow: /assets/
+
+# Indique l'emplacement du fichier sitemap
+Sitemap: https://gilsonmak.github.io/P4-Nina-Carducci/sitemap.xml
+
