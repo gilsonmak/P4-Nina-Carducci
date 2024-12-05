@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Déclaration du fichier XML avec encodage UTF-8 -->
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Balise principale définissant le fichier comme un sitemap selon le schéma officiel -->
+
+    <url>
+        <!-- Début d'une URL -->
+        <loc>https://gilsonmak.github.io/P4-Nina-Carducci/</loc>
+        <!-- Lien vers la page d'accueil. -->
+        <lastmod>2024-12-05</lastmod>
+        <!-- Date de dernière modification : utile pour les moteurs de recherche qui priorisent les pages récemment mises à jour -->
+        <changefreq>monthly</changefreq>
+        <!-- Fréquence de changement suggérée : ici 'monthly' pour une mise à jour mensuelle, ajuster si nécessaire -->
+        <priority>1.0</priority>
+        <!-- Priorité élevée (1.0) car c'est la page d'accueil -->
+    </url>
+
+    <url>
+        <loc>https://gilsonmak.github.io/P4-Nina-Carducci/#about</loc>
+        <!-- Lien vers la section 'About'. Note : Lien avec fragment (#about) pour indiquer une ancre spécifique -->
+        <lastmod>2024-12-05</lastmod>
+        <!-- Date de dernière modification -->
+        <changefreq>monthly</changefreq>
+        <!-- Fréquence de mise à jour suggérée -->
+        <priority>0.8</priority>
+        <!-- Priorité légèrement inférieure car c'est une section spécifique -->
+    </url>
+
+    <url>
+        <loc>https://gilsonmak.github.io/P4-Nina-Carducci/#services</loc>
+        <!-- Lien vers la section 'Services' -->
+        <lastmod>2024-12-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://gilsonmak.github.io/P4-Nina-Carducci/#gallery</loc>
+        <!-- Lien vers la section 'Gallery' -->
+        <lastmod>2024-12-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://gilsonmak.github.io/P4-Nina-Carducci/#contact</loc>
+        <!-- Lien vers la section 'Contact' -->
+        <lastmod>2024-12-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+</urlset>

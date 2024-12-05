@@ -239,11 +239,81 @@ form textarea {
 }
 input[type="submit"] {
 	background-color: #BEB45A;
-	padding: .5em 1em;
-	transition: background-color 0.3s ease-in-out;
-	
-	
+	padding: .5em 1em
 }
+
+.infos-bureau {
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	z-index: 10;
+	position: relative;
+	text-align: center;
+	background-color: #d8d3a8;
+	padding: 10px;
+	border-radius: 10px;
+	max-width: 560px;
+	margin-left: auto;
+	margin-right: auto;
+  }
+  #form-maintenance {
+	text-align: center;
+  }
+  #form-maintenance a {
+	color: #000;
+  }
+  address p {
+	height: 10px;
+  }
+  .form-container h2 {
+	font-size: 1.8rem;
+  }
+  /* Styles communs pour les liens mailto, tel, #services et #contact */
+  a[href^="mailto:"],
+  a[href^="tel:"],
+  a[href^="#services"],
+  a[href^="#contact"] {
+	color: #000;
+  }
+  /* Styles communs pour le hover des liens mailto, tel, #services et #contact */
+  a[href^="mailto:"]:hover,
+  a[href^="tel:"]:hover,
+  a[href^="#services"]:hover,
+  a[href^="#contact"]:hover {
+	color: #000;
+	font-weight: bold;
+	text-decoration: none;
+  }
+  #horaires {
+	display: flex;
+	flex-direction: row;
+  }
+  img {
+	width: auto;
+	height: auto;
+  }
+  a:hover {
+	font-weight: 800;
+  }
+
+  #form-error {
+	background-color: powderblue;
+	border: 1px solid #87CEEB;
+	padding: 1rem;
+	border-radius: 0.5rem;
+	
+  }
+  
+  
+  #nom-footer {
+	  font-size: 1.25rem;
+	  font-weight: 600;
+	}
+
+
+
+
 /* Pointer*/
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
