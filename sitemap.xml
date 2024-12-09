@@ -8,31 +8,7 @@
     <changefreq>daily</changefreq>
     <priority>1.00</priority>
   </url>
-
-  <!-- Section À propos -->
-  <url>
-    <loc>https://gilsonmak.github.io/P4-Nina-Carducci/#about</loc>
-    <lastmod>2024-12-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
-  </url>
-
-  <!-- Section Galerie -->
-  <url>
-    <loc>https://gilsonmak.github.io/P4-Nina-Carducci/#gallery</loc>
-    <lastmod>2024-12-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
-  </url>
-
-  <!-- Section Services -->
-  <url>
-    <loc>https://gilsonmak.github.io/P4-Nina-Carducci/#services</loc>
-    <lastmod>2024-12-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
-  </url>
-
+  
   <!-- Section Contact -->
   <url>
     <loc>https://gilsonmak.github.io/P4-Nina-Carducci/#contact</loc>
